@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2400" height="1700" viewBox="0 0 2400 1700">
+<title>화면 표시 데이터 흐름</title>
+<rect width="2400" height="1700" fill="white"/>
+<text x="70" y="112.0" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="60" font-weight="700" fill="#172B46">화면 표시 데이터 흐름</text>
+<rect x="80" y="220" width="1510" height="230" rx="24" fill="#F5F8FF" stroke="#D1DEF3" stroke-width="2"/>
+<rect x="115" y="252" width="62" height="62" rx="14" fill="#2764D5" stroke="#2764D5" stroke-width="2"/>
+<text x="132" y="293.6" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="34" font-weight="700" fill="#FFFFFF">1</text>
+<text x="215" y="287.8" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="32" font-weight="400" fill="#172B46">브라우저 public/app.js가</text>
+<text x="215" y="340.8" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="32" font-weight="400" fill="#172B46">/student/extension.mjs를 불러와</text>
+<text x="215" y="393.8" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="32" font-weight="400" fill="#172B46">createStudentView() 호출</text>
+<rect x="80" y="510" width="1510" height="180" rx="24" fill="#F5F8FF" stroke="#D1DEF3" stroke-width="2"/>
+<rect x="115" y="542" width="62" height="62" rx="14" fill="#2764D5" stroke="#2764D5" stroke-width="2"/>
+<text x="132" y="583.6" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="34" font-weight="700" fill="#FFFFFF">2</text>
+<text x="215" y="577.8" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="32" font-weight="400" fill="#172B46">app.js가 로컬 앱 서버 /api/*에 요청</text>
+<text x="215" y="630.8" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="32" font-weight="400" fill="#172B46">(127.0.0.1:5189)</text>
+<rect x="80" y="750" width="1510" height="230" rx="24" fill="#F5F8FF" stroke="#D1DEF3" stroke-width="2"/>
+<rect x="115" y="782" width="62" height="62" rx="14" fill="#2764D5" stroke="#2764D5" stroke-width="2"/>
+<text x="132" y="823.6" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="34" font-weight="700" fill="#FFFFFF">3</text>
+<text x="215" y="817.8" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="32" font-weight="400" fill="#172B46">서버가 설정이 있을 때만 기존 엔진·CLCO·ALEPH·OSV에 연결,</text>
+<text x="215" y="870.8" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="32" font-weight="400" fill="#172B46">없으면 오류 코드로 응답</text>
+<text x="215" y="923.8" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="32" font-weight="400" fill="#172B46">(예: ENGINE_NOT_CONNECTED)</text>
+<rect x="80" y="1040" width="1510" height="180" rx="24" fill="#F5F8FF" stroke="#D1DEF3" stroke-width="2"/>
+<rect x="115" y="1072" width="62" height="62" rx="14" fill="#2764D5" stroke="#2764D5" stroke-width="2"/>
+<text x="132" y="1113.6" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="34" font-weight="700" fill="#FFFFFF">4</text>
+<text x="215" y="1107.8" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="32" font-weight="400" fill="#172B46">app.js가 응답을 검사해 {status, mode, data, error}</text>
+<text x="215" y="1160.8" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="32" font-weight="400" fill="#172B46">묶음을 학생 함수에 전달</text>
+<rect x="80" y="1280" width="1510" height="250" rx="24" fill="#F5F8FF" stroke="#D1DEF3" stroke-width="2"/>
+<rect x="115" y="1312" width="62" height="62" rx="14" fill="#2764D5" stroke="#2764D5" stroke-width="2"/>
+<text x="132" y="1353.6" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="34" font-weight="700" fill="#FFFFFF">5</text>
+<text x="215" y="1347.8" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="32" font-weight="400" fill="#172B46">학생 함수가 DOM 요소를 만들어 반환</text>
+<text x="215" y="1400.8" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="32" font-weight="400" fill="#172B46">→ app.js가 정해진 칸(student-identity 등)에 표시</text>
+<polyline points="835,450 835,510" fill="none" stroke="#2764D5" stroke-width="4" stroke-linejoin="round"/>
+<polygon points="835,510 827.6239764350015,494.68352924565886 842.3760235649985,494.68352924565886" fill="#2764D5"/>
+<polyline points="835,690 835,750" fill="none" stroke="#2764D5" stroke-width="4" stroke-linejoin="round"/>
+<polygon points="835,750 827.6239764350015,734.6835292456589 842.3760235649985,734.6835292456589" fill="#2764D5"/>
+<polyline points="835,980 835,1040" fill="none" stroke="#2764D5" stroke-width="4" stroke-linejoin="round"/>
+<polygon points="835,1040 827.6239764350015,1024.683529245659 842.3760235649985,1024.683529245659" fill="#2764D5"/>
+<polyline points="835,1220 835,1280" fill="none" stroke="#2764D5" stroke-width="4" stroke-linejoin="round"/>
+<polygon points="835,1280 827.6239764350015,1264.683529245659 842.3760235649985,1264.683529245659" fill="#2764D5"/>
+<rect x="1710" y="1180" width="610" height="350" rx="24" fill="#FFF7E3" stroke="#E8CA82" stroke-width="2"/>
+<text x="1745" y="1243.0" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="30" font-weight="700" fill="#916016">학생 함수 오류 시:</text>
+<text x="1745" y="1306.1" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="29" font-weight="400" fill="#172B46">「학생 구현 … 실행 중 오류가</text>
+<text x="1745" y="1359.1" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="29" font-weight="400" fill="#172B46">발생했습니다.</text>
+<text x="1745" y="1412.1" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="29" font-weight="400" fill="#172B46">제공 UI는 계속 동작합니다.」</text>
+<polyline points="1590,1405 1710,1405" fill="none" stroke="#916016" stroke-width="3" stroke-linejoin="round" stroke-dasharray="11 9"/>
+</svg>

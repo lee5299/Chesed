@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2400" height="1610" viewBox="0 0 2400 1610">
+<title>기존 엔진(SDP) 연결 방식</title>
+<rect width="2400" height="1610" fill="white"/>
+<text x="70" y="112.0" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="60" font-weight="700" fill="#172B46">기존 엔진(SDP) 연결 방식</text>
+<rect x="70" y="190" width="2260" height="100" rx="22" fill="#F3F7FE" stroke="#D0DDF0" stroke-width="2"/>
+<text x="110" y="251.7" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="33" font-weight="700" fill="#172B46">-SdpHostConfig 지정 시에만 연결. 없으면 ENGINE_NOT_CONNECTED</text>
+<rect x="70" y="335" width="2260" height="145" rx="22" fill="#F5F7FA" stroke="#D7DFE9" stroke-width="2"/>
+<text x="110" y="389.1" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="29" font-weight="700" fill="#52657D">설정 항목</text>
+<text x="110" y="445.7" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="33" font-weight="400" fill="#172B46">schema, projectId, host, port, servername, caFile, certFile, keyFile, tokenFile</text>
+<rect x="180" y="560" width="600" height="105" rx="22" fill="#EDF4FF" stroke="#BED3F5" stroke-width="2"/>
+<text x="295" y="625.2" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="38" font-weight="700" fill="#172B46">로컬 앱 서버</text>
+<rect x="1620" y="560" width="600" height="105" rx="22" fill="#EAF7F3" stroke="#B9DBD0" stroke-width="2"/>
+<text x="1824" y="625.2" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="38" font-weight="700" fill="#00867E">SDP relay</text>
+<polyline points="480,665 480,1255" fill="none" stroke="#2764D5" stroke-width="3" stroke-linejoin="round" stroke-dasharray="11 9"/>
+<polyline points="1920,665 1920,1255" fill="none" stroke="#00867E" stroke-width="3" stroke-linejoin="round" stroke-dasharray="11 9"/>
+<text x="610" y="781.6" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="34" font-weight="700" fill="#172B46">HTTPS POST /alekov/&lt;조회 종류&gt;</text>
+<text x="610" y="836.9" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="31" font-weight="400" fill="#172B46">mTLS(클라이언트 인증서) · Authorization: Bearer JWT</text>
+<polyline points="480,890 1920,890" fill="none" stroke="#2764D5" stroke-width="5" stroke-linejoin="round"/>
+<polygon points="1920,890 1904.683529245659,897.3760235649985 1904.683529245659,882.6239764350015" fill="#2764D5"/>
+<text x="610" y="1050.6" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="34" font-weight="700" fill="#00867E">JSON 응답 (최대 65,536바이트, 5초 제한)</text>
+<polyline points="1920,1110 480,1110" fill="none" stroke="#00867E" stroke-width="5" stroke-linejoin="round"/>
+<polygon points="480,1110 495.31647075434114,1102.6239764350016 495.31647075434114,1117.3760235649984" fill="#00867E"/>
+<rect x="180" y="1255" width="1000" height="140" rx="22" fill="#F3F7FE" stroke="#CADBF3" stroke-width="2"/>
+<text x="220" y="1334.0" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="30" font-weight="700" fill="#172B46">형식 불일치 → ENGINE_RESULT_UNVERIFIED</text>
+<rect x="70" y="1480" width="2260" height="85" rx="18" fill="#F5F7FA" stroke="#DCE3EC" stroke-width="2"/>
+<text x="110" y="1535.9" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="31" font-weight="700" fill="#172B46">인증서·키·토큰 파일은 프로젝트 밖 보관. 실제 SDP 주소·연결은 미확인</text>
+</svg>

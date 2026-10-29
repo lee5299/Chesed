@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2400" height="1620" viewBox="0 0 2400 1620">
+<title>그림 B · 제공 파일과 학생 작성 파일의 경계</title>
+<rect width="2400" height="1620" fill="white"/>
+<text x="70" y="110.2" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="58" font-weight="700" fill="#172B46">그림 B · 제공 / 학생 작성 경계</text>
+<text x="74" y="175.8" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="32" font-weight="400" fill="#52657D">D:<tspan font-family="Consolas,monospace">\</tspan>Chesed<tspan font-family="Consolas,monospace">\</tspan>on-client</text>
+<rect x="70" y="210" width="513.3333333333333" height="44" rx="12" fill="#EAF1FF" stroke="#EAF1FF" stroke-width="2"/>
+<text x="86" y="238.7" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="23" font-weight="700" fill="#2764D5">설명서 6장 · 회색 = 제공 / 파란색 = 학생 작성</text>
+<rect x="60" y="300" width="900" height="1110" rx="28" fill="#F1F3F6" stroke="#D4DAE3" stroke-width="2"/>
+<rect x="95" y="332" width="259.33333333333337" height="44" rx="12" fill="#E2E7EE" stroke="#E2E7EE" stroke-width="2"/>
+<text x="111" y="360.7" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="23" font-weight="700" fill="#657287">제공 파일 · 수정 안 함</text>
+<text x="95" y="440.5" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="35" font-weight="700" fill="#172B46">제공 코드와 기존 문서</text>
+<rect x="100" y="480" width="820" height="250" rx="20" fill="#FFFFFF" stroke="#D2D9E3" stroke-width="2"/>
+<text x="135" y="548.3" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="37" font-weight="700" fill="#172B46">public<tspan font-family="Consolas,monospace">\</tspan></text>
+<text x="135" y="609.2" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="28" font-weight="400" fill="#52657D">index.html · app.js · ai-connect.mjs</text>
+<text x="135" y="661.2" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="28" font-weight="400" fill="#52657D">vulnerabilities-view.mjs · style.css</text>
+<rect x="100" y="765" width="820" height="235" rx="20" fill="#FFFFFF" stroke="#D2D9E3" stroke-width="2"/>
+<text x="135" y="832.3" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="37" font-weight="700" fill="#172B46">src<tspan font-family="Consolas,monospace">\</tspan></text>
+<text x="135" y="893.2" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="28" font-weight="400" fill="#52657D">server.mjs · engine<tspan font-family="Consolas,monospace">\</tspan> · ai<tspan font-family="Consolas,monospace">\</tspan> · connection<tspan font-family="Consolas,monospace">\</tspan></text>
+<text x="135" y="945.2" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="28" font-weight="400" fill="#52657D">actions<tspan font-family="Consolas,monospace">\</tspan> · vulnerabilities<tspan font-family="Consolas,monospace">\</tspan></text>
+<rect x="100" y="1035" width="820" height="200" rx="20" fill="#FFFFFF" stroke="#D2D9E3" stroke-width="2"/>
+<text x="135" y="1095.2" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="28" font-weight="400" fill="#52657D">tools<tspan font-family="Consolas,monospace">\</tspan>start-alekov.ps1 · vendor<tspan font-family="Consolas,monospace">\</tspan></text>
+<text x="135" y="1144.2" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="28" font-weight="400" fill="#52657D">package.json · .env.example</text>
+<text x="135" y="1193.2" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="28" font-weight="400" fill="#52657D">README.md · docs<tspan font-family="Consolas,monospace">\</tspan> 기존 문서</text>
+<rect x="100" y="1270" width="820" height="100" rx="20" fill="#FFFFFF" stroke="#D2D9E3" stroke-width="2"/>
+<text x="135" y="1332.9" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="31" font-weight="700" fill="#172B46">student<tspan font-family="Consolas,monospace">\</tspan>engine-adapter.mjs</text>
+<rect x="1440" y="300" width="900" height="1110" rx="28" fill="#EDF4FF" stroke="#B7CFF7" stroke-width="2"/>
+<rect x="1475" y="332" width="388.6666666666667" height="44" rx="12" fill="#EAF1FF" stroke="#EAF1FF" stroke-width="2"/>
+<text x="1491" y="360.7" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="23" font-weight="700" fill="#2764D5">학생 작성 파일 · 구현 및 신규 추가</text>
+<text x="1475" y="440.5" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="35" font-weight="700" fill="#172B46">학생이 작성한 파일 2개</text>
+<rect x="1480" y="480" width="820" height="670" rx="20" fill="#FFFFFF" stroke="#BDD2F4" stroke-width="2"/>
+<text x="1515" y="548.3" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="37" font-weight="700" fill="#2764D5">student<tspan font-family="Consolas,monospace">\</tspan>extension.mjs</text>
+<text x="1515" y="607.1" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="29" font-weight="400" fill="#52657D">표시 함수 8개</text>
+<text x="1515" y="674.3" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="27" font-weight="700" fill="#2764D5">13</text>
+<text x="1575" y="677.9" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="31" font-weight="700" fill="#172B46">renderIdentity</text>
+<text x="1515" y="729.3" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="27" font-weight="700" fill="#2764D5">14</text>
+<text x="1575" y="732.9" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="31" font-weight="700" fill="#172B46">renderDecision</text>
+<text x="1515" y="784.3" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="27" font-weight="700" fill="#2764D5">15</text>
+<text x="1575" y="787.9" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="31" font-weight="700" fill="#172B46">renderEvents</text>
+<text x="1515" y="839.3" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="27" font-weight="700" fill="#2764D5">16</text>
+<text x="1575" y="842.9" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="31" font-weight="700" fill="#172B46">renderStatus</text>
+<text x="1515" y="894.3" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="27" font-weight="700" fill="#2764D5">17</text>
+<text x="1575" y="897.9" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="31" font-weight="700" fill="#172B46">renderAiConnection</text>
+<text x="1515" y="949.3" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="27" font-weight="700" fill="#2764D5">18</text>
+<text x="1575" y="952.9" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="31" font-weight="700" fill="#172B46">renderExplanation</text>
+<text x="1515" y="1004.3" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="27" font-weight="700" fill="#2764D5">19</text>
+<text x="1575" y="1007.9" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="31" font-weight="700" fill="#172B46">renderAction</text>
+<text x="1515" y="1059.3" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="27" font-weight="700" fill="#2764D5">20</text>
+<text x="1575" y="1062.9" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="31" font-weight="700" fill="#172B46">renderVulnerabilities</text>
+<rect x="1480" y="1190" width="820" height="180" rx="20" fill="#FFFFFF" stroke="#BDD2F4" stroke-width="2"/>
+<text x="1515" y="1255.6" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="34" font-weight="700" fill="#2764D5">docs<tspan font-family="Consolas,monospace">\</tspan>STUDENT_RUNBOOK.md</text>
+<text x="1515" y="1316.1" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="29" font-weight="400" fill="#52657D">21단계 설명서</text>
+<text x="995" y="544.2" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="28" font-weight="700" fill="#657287">public<tspan font-family="Consolas,monospace">\</tspan>app.js</text>
+<text x="995" y="587.6" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="24" font-weight="400" fill="#172B46">상태 값 전달 → DOM 요소 반환</text>
+<polyline points="960,625 1480,625" fill="none" stroke="#2764D5" stroke-width="5" stroke-linejoin="round"/>
+<polygon points="1480,625 1464.683529245659,632.3760235649985 1464.683529245659,617.6239764350015" fill="#2764D5"/>
+<rect x="60" y="1475" width="2280" height="85" rx="16" fill="#F5F7FB" stroke="#E0E6EF" stroke-width="2"/>
+<text x="90" y="1527.0" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="30" font-weight="700" fill="#172B46">기준: .on-starter-manifest.json 제공 파일 56개 해시 대조, 바뀐 제공 파일 없음</text>
+</svg>

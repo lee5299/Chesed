@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2400" height="1660" viewBox="0 0 2400 1660">
+<title>D:\Chesed 폴더 구조</title>
+<rect width="2400" height="1660" fill="white"/>
+<text x="70" y="113.80000000000001" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="62" font-weight="700" fill="#172B46">D:<tspan font-family="Consolas,monospace">\</tspan>Chesed 폴더 구조</text>
+<text x="75" y="181.1" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="29" font-weight="400" fill="#52657D">회색 = 제공     파랑 = 학생 작성     연노랑 = PC 보관 기록·커밋 안 함</text>
+<rect x="70" y="235" width="2260" height="115" rx="20" fill="#FFFFFF" stroke="#B8C6DB" stroke-width="2"/>
+<text x="110" y="302.1" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="39" font-weight="700" fill="#172B46">D:<tspan font-family="Consolas,monospace">\</tspan>Chesed</text>
+<text x="740" y="304.9" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="31" font-weight="400" fill="#52657D">Git 최상위 · 커밋·제출 위치</text>
+<polyline points="130,350 130,1450" fill="none" stroke="#657287" stroke-width="3" stroke-linejoin="round"/>
+<polyline points="130,447 220,447" fill="none" stroke="#657287" stroke-width="3" stroke-linejoin="round"/>
+<polyline points="130,1450 220,1450" fill="none" stroke="#657287" stroke-width="3" stroke-linejoin="round"/>
+<rect x="220" y="395" width="2110" height="105" rx="18" fill="#F0F2F5" stroke="#D0D7E1" stroke-width="2"/>
+<text x="260" y="459.4" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="36" font-weight="700" fill="#172B46">on-client</text>
+<text x="760" y="462.9" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="31" font-weight="400" fill="#52657D">앱 폴더 · 실행 위치</text>
+<polyline points="285,500 285,1155" fill="none" stroke="#657287" stroke-width="3" stroke-linejoin="round"/>
+<polyline points="285,600 365,600" fill="none" stroke="#657287" stroke-width="3" stroke-linejoin="round"/>
+<polyline points="285,735 365,735" fill="none" stroke="#657287" stroke-width="3" stroke-linejoin="round"/>
+<polyline points="285,870 365,870" fill="none" stroke="#657287" stroke-width="3" stroke-linejoin="round"/>
+<polyline points="285,1122 365,1122" fill="none" stroke="#657287" stroke-width="3" stroke-linejoin="round"/>
+<rect x="365" y="550" width="1965" height="100" rx="18" fill="#F0F2F5" stroke="#D0D7E1" stroke-width="2"/>
+<text x="405" y="612.9" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="31" font-weight="400" fill="#172B46">package.json, .env.example, .on-starter-manifest.json, README.md</text>
+<rect x="365" y="685" width="1965" height="100" rx="18" fill="#F0F2F5" stroke="#D0D7E1" stroke-width="2"/>
+<text x="405" y="747.9" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="31" font-weight="400" fill="#172B46">public<tspan font-family="Consolas,monospace">\</tspan>, src<tspan font-family="Consolas,monospace">\</tspan>, tools<tspan font-family="Consolas,monospace">\</tspan>, vendor<tspan font-family="Consolas,monospace">\</tspan>, student<tspan font-family="Consolas,monospace">\</tspan>engine-adapter.mjs</text>
+<rect x="365" y="820" width="1965" height="100" rx="18" fill="#EAF2FF" stroke="#B8CEF4" stroke-width="2"/>
+<text x="405" y="885.6" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="34" font-weight="700" fill="#2764D5">student<tspan font-family="Consolas,monospace">\</tspan>extension.mjs</text>
+<rect x="365" y="955" width="1965" height="310" rx="18" fill="#FFFFFF" stroke="#D0D9E6" stroke-width="2"/>
+<text x="405" y="1018.5" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="35" font-weight="700" fill="#172B46">docs<tspan font-family="Consolas,monospace">\</tspan></text>
+<polyline points="430,1038 430,1195" fill="none" stroke="#657287" stroke-width="3" stroke-linejoin="round"/>
+<polyline points="430,1085 500,1085" fill="none" stroke="#657287" stroke-width="3" stroke-linejoin="round"/>
+<polyline points="430,1195 500,1195" fill="none" stroke="#657287" stroke-width="3" stroke-linejoin="round"/>
+<rect x="500" y="1045" width="1770" height="80" rx="16" fill="#F0F2F5" stroke="#D0D7E1" stroke-width="2"/>
+<text x="535" y="1098.8" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="32" font-weight="400" fill="#172B46">기존 제공 문서</text>
+<rect x="500" y="1155" width="1770" height="80" rx="16" fill="#EAF2FF" stroke="#B8CEF4" stroke-width="2"/>
+<text x="535" y="1208.8" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="32" font-weight="700" fill="#2764D5">STUDENT_RUNBOOK.md, img<tspan font-family="Consolas,monospace">\</tspan></text>
+<rect x="220" y="1355" width="2110" height="190" rx="18" fill="#FFF5D9" stroke="#E7CD88" stroke-width="2"/>
+<text x="260" y="1424.6" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="34" font-weight="700" fill="#855E1A">13<tspan font-family="Consolas,monospace">\</tspan> 14<tspan font-family="Consolas,monospace">\</tspan> 17<tspan font-family="Consolas,monospace">\</tspan> 18<tspan font-family="Consolas,monospace">\</tspan> 19<tspan font-family="Consolas,monospace">\</tspan> 20<tspan font-family="Consolas,monospace">\</tspan> 21<tspan font-family="Consolas,monospace">\</tspan>, README.md, .gitignore</text>
+<text x="260" y="1492.0" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="30" font-weight="400" fill="#855E1A">PC 보관 기록 · 커밋 안 함</text>
+</svg>

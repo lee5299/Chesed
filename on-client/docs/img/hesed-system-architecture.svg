@@ -1,0 +1,107 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2400" height="1780" viewBox="0 0 2400 1780">
+<title>헤세드 시스템 구성과 SDP 접속 판정 흐름</title>
+<desc>학생 PC 안의 브라우저와 로컬 서버, 논리적으로 분리한 기존 SDP 운영 영역, CLCO·ALEPH·OSV의 연결 조건을 보여 줍니다. 실제 SDP 설치 위치와 운영 연결은 미확인입니다.</desc>
+<rect width="2400" height="1780" fill="#F5F7FB"/>
+<text x="70" y="110.80000000000001" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="62" font-weight="700" fill="#162A45">헤세드 시스템 구성과 동작 흐름</text>
+<text x="74" y="170.9" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="31" font-weight="400" fill="#53647B">브라우저에서 요청 → 로컬 서버가 중계 → 기존 SDP가 판정 → 검증된 결과를 화면에 표시</text>
+<rect x="70" y="210" width="269" height="43" rx="12" fill="#EAF1FF" stroke="#EAF1FF" stroke-width="2"/>
+<text x="86" y="237.7" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="23" font-weight="700" fill="#2666D5">코드 대조 기반 구성도</text>
+<rect x="355" y="210" width="338" height="43" rx="12" fill="#FFF0DC" stroke="#FFF0DC" stroke-width="2"/>
+<text x="371" y="237.7" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="23" font-weight="700" fill="#AC6819">운영 연결 성공을 뜻하지 않음</text>
+<text x="1720" y="241.5" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="25" font-weight="400" fill="#53647B">기준: on-client 소스 · 2026-10-29</text>
+<rect x="60" y="290" width="1290" height="810" rx="30" fill="#EAF0FA" stroke="#CBD9EF" stroke-width="2"/>
+<text x="95" y="341.8" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="32" font-weight="700" fill="#162A45">학생 PC · 로컬 앱 실행 영역</text>
+<rect x="1450" y="290" width="890" height="810" rx="30" fill="#E7F4F1" stroke="#B9DED5" stroke-width="2"/>
+<text x="1490" y="341.8" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="32" font-weight="700" fill="#00877F">기존 SDP 운영 영역</text>
+<text x="1490" y="388.4" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="26" font-weight="400" fill="#53647B">논리적 배치 · 실제 서버 / 망 위치는 미확인</text>
+<rect x="105" y="410" width="440" height="315" rx="22" fill="#FFFFFF" stroke="#D6DEEA" stroke-width="2"/>
+<rect x="135" y="438" width="184" height="43" rx="12" fill="#EAF1FF" stroke="#EAF1FF" stroke-width="2"/>
+<text x="151" y="465.7" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="23" font-weight="700" fill="#2666D5">1  사용자 화면</text>
+<text x="135" y="541.2" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="38" font-weight="700" fill="#162A45">브라우저</text>
+<text x="135" y="587.6" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="24" font-weight="400" fill="#53647B">http://127.0.0.1:5189/</text>
+<text x="135" y="630.6" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="24" font-weight="400" fill="#53647B">public/index.html · app.js</text>
+<text x="135" y="673.6" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="24" font-weight="400" fill="#53647B">보호 현황 / 업무 앱 / 보안 기록</text>
+<rect x="105" y="825" width="440" height="210" rx="22" fill="#FFFFFF" stroke="#D6DEEA" stroke-width="2"/>
+<text x="135" y="880.1" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="29" font-weight="700" fill="#162A45">학생 표시 함수 8개</text>
+<text x="135" y="929.7" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="23" font-weight="400" fill="#53647B">student/extension.mjs</text>
+<text x="135" y="965.7" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="23" font-weight="400" fill="#53647B">서버 응답을 받아 DOM으로 표시</text>
+<text x="135" y="1001.7" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="23" font-weight="400" fill="#53647B">판정·탐지·집행은 기존 엔진 담당</text>
+<polyline points="325,825 325,725" fill="none" stroke="#2666D5" stroke-width="3" stroke-linejoin="round"/>
+<polygon points="325,725 332.3760235649985,740.3164707543411 317.6239764350015,740.3164707543411" fill="#2666D5"/>
+<text x="350" y="780.8" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="22" font-weight="400" fill="#2666D5">화면 표시</text>
+<rect x="700" y="410" width="590" height="625" rx="22" fill="#FFFFFF" stroke="#D6DEEA" stroke-width="2"/>
+<rect x="730" y="438" width="282" height="43" rx="12" fill="#EAF1FF" stroke="#EAF1FF" stroke-width="2"/>
+<text x="746" y="465.7" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="23" font-weight="700" fill="#2666D5">2  요청 중계 · 응답 검증</text>
+<text x="730" y="544.2" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="38" font-weight="700" fill="#162A45">로컬 앱 서버</text>
+<text x="730" y="592.5" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="25" font-weight="400" fill="#53647B">src/server.mjs</text>
+<text x="730" y="634.5" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="25" font-weight="400" fill="#53647B">127.0.0.1:5189 · /api/*</text>
+<rect x="730" y="675" width="530" height="170" rx="17" fill="#F0F5FD" stroke="#D5E1F4" stroke-width="2"/>
+<text x="750" y="718.3" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="27" font-weight="700" fill="#162A45">② SDP 연결 어댑터 / host</text>
+<text x="750" y="766.5" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="25" font-weight="400" fill="#53647B">student/engine-adapter.mjs</text>
+<text x="750" y="806.5" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="25" font-weight="400" fill="#53647B">→ src/engine/sdp-host.mjs</text>
+<text x="730" y="908.6" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="24" font-weight="400" fill="#53647B">④ 본인 범위·응답 형식 검증 후 반환</text>
+<text x="730" y="950.6" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="24" font-weight="400" fill="#53647B">개인 인증서·토큰은 서버 측에서 관리</text>
+<text x="730" y="992.6" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="24" font-weight="400" fill="#53647B">설정 파일은 프로젝트 / Git 밖에 보관</text>
+<polyline points="545,553 700,553" fill="none" stroke="#2666D5" stroke-width="4" stroke-linejoin="round"/>
+<polygon points="700,553 684.6835292456589,560.3760235649985 684.6835292456589,545.6239764350015" fill="#2666D5"/>
+<text x="560" y="525.5" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="25" font-weight="700" fill="#2666D5">① 요청</text>
+<text x="566" y="598.8" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="22" font-weight="400" fill="#53647B">/api/*</text>
+<polyline points="700,690 545,690" fill="none" stroke="#2666D5" stroke-width="4" stroke-linejoin="round"/>
+<polygon points="545,690 560.3164707543411,682.6239764350015 560.3164707543411,697.3760235649985" fill="#2666D5"/>
+<text x="559" y="758.7" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="23" font-weight="700" fill="#2666D5">⑤ 결과 표시</text>
+<rect x="1510" y="435" width="770" height="600" rx="22" fill="#FFFFFF" stroke="#D6DEEA" stroke-width="2"/>
+<rect x="1545" y="465" width="286" height="43" rx="12" fill="#E4F5EF" stroke="#E4F5EF" stroke-width="2"/>
+<text x="1561" y="492.7" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="23" font-weight="700" fill="#00877F">3  기존 엔진 · SDP relay</text>
+<text x="1545" y="569.3" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="37" font-weight="700" fill="#162A45">접속 판정·본인 기록 조회</text>
+<text x="1545" y="625.3" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="27" font-weight="400" fill="#53647B">현재 사용자·프로젝트·세션의 범위 확인</text>
+<text x="1545" y="672.3" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="27" font-weight="400" fill="#53647B">업무 앱 접속 요청을 기존 정책으로 판정</text>
+<rect x="1545" y="718" width="700" height="98" rx="16" fill="#EDF8F4" stroke="#D2EADF" stroke-width="2"/>
+<text x="1570" y="777.8" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="32" font-weight="700" fill="#00877F">허용 / 거부 / 추가 확인</text>
+<text x="1545" y="879.5" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="25" font-weight="400" fill="#53647B">본인 접속 기록·XDR 경보·기기·세션 반환</text>
+<text x="1545" y="925.5" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="25" font-weight="400" fill="#53647B">host · port · servername은 담당자 설정값</text>
+<text x="1545" y="971.5" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="25" font-weight="400" fill="#53647B">실제 주소·인증서는 그림에 포함하지 않음</text>
+<polyline points="1290,660 1510,660" fill="none" stroke="#00877F" stroke-width="4" stroke-linejoin="round" stroke-dasharray="11 9"/>
+<polygon points="1510,660 1494.683529245659,667.3760235649985 1494.683529245659,652.6239764350015" fill="#00877F"/>
+<text x="1308" y="586.6" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="24" font-weight="700" fill="#00877F">③ HTTPS</text>
+<text x="1308" y="627.7" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="23" font-weight="400" fill="#00877F">mTLS + JWT</text>
+<text x="1310" y="703.8" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="22" font-weight="400" fill="#53647B">/alekov/*</text>
+<polyline points="1510,875 1290,875" fill="none" stroke="#00877F" stroke-width="4" stroke-linejoin="round" stroke-dasharray="11 9"/>
+<polygon points="1290,875 1305.316470754341,867.6239764350015 1305.316470754341,882.3760235649985" fill="#00877F"/>
+<text x="1310" y="821.6" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="24" font-weight="700" fill="#00877F">④ 판정·기록</text>
+<text x="1310" y="858.7" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="23" font-weight="400" fill="#00877F">결과 응답</text>
+<text x="95" y="1082.5" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="25" font-weight="400" fill="#53647B">SDP 연결 대상: -SdpHostConfig로 지정한 설정의 host · port</text>
+<text x="75" y="1170.1" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="29" font-weight="700" fill="#162A45">부가 연결  |  아래 경로도 해당 설정·승인·검증 조건을 충족해야 동작합니다.</text>
+<rect x="60" y="1210" width="730" height="320" rx="22" fill="#FFFFFF" stroke="#D6DEEA" stroke-width="2"/>
+<rect x="90" y="1235" width="350" height="43" rx="12" fill="#E4F5EF" stroke="#E4F5EF" stroke-width="2"/>
+<text x="106" y="1262.7" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="23" font-weight="700" fill="#00877F">로컬 서버 → CLCO 게이트웨이</text>
+<text x="90" y="1330.9" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="31" font-weight="700" fill="#162A45">AI 연결·권한 확인·사건 설명</text>
+<text x="90" y="1381.7" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="23" font-weight="400" fill="#53647B">src/ai/connection.mjs · src/connection/native-login.mjs</text>
+<text x="90" y="1418.7" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="23" font-weight="400" fill="#53647B">ai-classroom-gateway-production.up.railway.app</text>
+<text x="90" y="1455.7" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="23" font-weight="400" fill="#53647B">계정 연결·앱 권한 준비 후 요청</text>
+<text x="90" y="1492.7" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="23" font-weight="400" fill="#53647B">AI 설명·제안이 접속 판정을 바꾸지는 않음</text>
+<rect x="835" y="1210" width="730" height="320" rx="22" fill="#FFFFFF" stroke="#D6DEEA" stroke-width="2"/>
+<rect x="865" y="1235" width="363" height="43" rx="12" fill="#FFF0DC" stroke="#FFF0DC" stroke-width="2"/>
+<text x="881" y="1262.7" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="23" font-weight="700" fill="#AC6819">브라우저 → ALEPH 승인 페이지</text>
+<text x="865" y="1330.9" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="31" font-weight="700" fill="#162A45">사용자가 계정·AI 앱 승인</text>
+<text x="865" y="1381.7" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="23" font-weight="400" fill="#53647B">public/ai-connect.mjs</text>
+<text x="865" y="1418.7" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="23" font-weight="400" fill="#53647B">https://aleph-omega.vercel.app</text>
+<text x="865" y="1455.7" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="23" font-weight="400" fill="#53647B">「승인 페이지 열기」로 이동</text>
+<text x="865" y="1492.7" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="23" font-weight="400" fill="#53647B">앱 서버의 연결·승인 API 요청 대상은 CLCO</text>
+<rect x="1610" y="1210" width="730" height="320" rx="22" fill="#FFFFFF" stroke="#D6DEEA" stroke-width="2"/>
+<rect x="1640" y="1235" width="332" height="43" rx="12" fill="#E4F5EF" stroke="#E4F5EF" stroke-width="2"/>
+<text x="1656" y="1262.7" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="23" font-weight="700" fill="#00877F">로컬 서버 → OSV 취약점 DB</text>
+<text x="1640" y="1330.9" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="31" font-weight="700" fill="#162A45">승인된 설치 패키지 취약점 조회</text>
+<text x="1640" y="1381.7" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="23" font-weight="400" fill="#53647B">src/vulnerabilities/project-scan.mjs · osv.mjs</text>
+<text x="1640" y="1418.7" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="23" font-weight="400" fill="#53647B">https://api.osv.dev/v1/querybatch</text>
+<text x="1640" y="1455.7" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="23" font-weight="400" fill="#53647B">프로젝트·잠금 파일·허용 목록이 필요</text>
+<text x="1640" y="1492.7" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="23" font-weight="400" fill="#53647B">설치 패키지 이름·버전까지 검증한 뒤 조회</text>
+<polyline points="78,1584 160,1584" fill="none" stroke="#2666D5" stroke-width="4" stroke-linejoin="round"/>
+<polygon points="160,1584 144.68352924565886,1591.3760235649984 144.68352924565886,1576.6239764350016" fill="#2666D5"/>
+<text x="180" y="1590.5" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="25" font-weight="400" fill="#53647B">실선: 같은 PC의 로컬 요청·표시</text>
+<polyline points="730,1584 812,1584" fill="none" stroke="#00877F" stroke-width="4" stroke-linejoin="round" stroke-dasharray="11 9"/>
+<polygon points="812,1584 796.6835292456589,1591.3760235649984 796.6835292456589,1576.6239764350016" fill="#00877F"/>
+<text x="830" y="1590.5" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="25" font-weight="400" fill="#53647B">점선: 설정·개인 자격이 필요한 SDP 연결</text>
+<text x="76" y="1652.3" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="27" font-weight="700" fill="#162A45">설정 없는 기본 실행: 로컬 화면은 열리지만 SDP는 연결 없음. AI·취약점 조회도 준비 상태를 별도로 확인합니다.</text>
+<text x="76" y="1705.5" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="25" font-weight="400" fill="#53647B">접속 판정 화면은 업무 앱 트래픽이 이 앱을 통과한다는 뜻이 아닙니다. 실제 터널·집행 경로와 SDP 설치 위치는 확인하지 않았습니다.</text>
+<text x="76" y="1748.0" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="20" font-weight="400" fill="#53647B">자료: STUDENT_RUNBOOK.md / src/server.mjs / src/engine/sdp-host*.mjs / src/ai/connection.mjs / src/vulnerabilities/*.mjs</text>
+</svg>

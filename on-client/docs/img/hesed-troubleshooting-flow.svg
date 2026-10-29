@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="3200" height="2090" viewBox="0 0 3200 2090">
+<title>화면 문구별 확인 순서</title>
+<rect width="3200" height="2090" fill="white"/>
+<text x="70" y="117.4" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="66" font-weight="700" fill="#172B46">화면 문구별 확인 순서</text>
+<rect x="60" y="1010" width="340" height="190" rx="22" fill="#EDF4FF" stroke="#BBD0EF" stroke-width="2"/>
+<text x="88" y="1092.6" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="34" font-weight="700" fill="#172B46">화면에 오류</text>
+<text x="88" y="1144.6" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="34" font-weight="700" fill="#172B46">문구가 보임</text>
+<polyline points="400,1105 480,1105" fill="none" stroke="#2764D5" stroke-width="4" stroke-linejoin="round"/>
+<polyline points="480,445 480,1765" fill="none" stroke="#2764D5" stroke-width="4" stroke-linejoin="round"/>
+<polyline points="480,445 580,445" fill="none" stroke="#2764D5" stroke-width="4" stroke-linejoin="round"/>
+<polygon points="580,445 564.6835292456589,452.3760235649985 564.6835292456589,437.6239764350015" fill="#2764D5"/>
+<polyline points="480,775 580,775" fill="none" stroke="#2764D5" stroke-width="4" stroke-linejoin="round"/>
+<polygon points="580,775 564.6835292456589,782.3760235649985 564.6835292456589,767.6239764350015" fill="#2764D5"/>
+<polyline points="480,1105 580,1105" fill="none" stroke="#2764D5" stroke-width="4" stroke-linejoin="round"/>
+<polygon points="580,1105 564.6835292456589,1112.3760235649984 564.6835292456589,1097.6239764350016" fill="#2764D5"/>
+<polyline points="480,1435 580,1435" fill="none" stroke="#2764D5" stroke-width="4" stroke-linejoin="round"/>
+<polygon points="580,1435 564.6835292456589,1442.3760235649984 564.6835292456589,1427.6239764350016" fill="#2764D5"/>
+<polyline points="480,1765 580,1765" fill="none" stroke="#2764D5" stroke-width="4" stroke-linejoin="round"/>
+<polygon points="580,1765 564.6835292456589,1772.3760235649984 564.6835292456589,1757.6239764350016" fill="#2764D5"/>
+<rect x="580" y="370" width="400" height="150" rx="22" fill="#F3F5F8" stroke="#D2DAE5" stroke-width="2"/>
+<text x="608" y="433.3" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="27" font-weight="700" fill="#172B46">「연결 없음」</text>
+<text x="608" y="478.3" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="27" font-weight="700" fill="#172B46">ENGINE_NOT_CONNECTED</text>
+<rect x="1090" y="370" width="420" height="150" rx="22" fill="#EDF4FF" stroke="#BBD0EF" stroke-width="2"/>
+<text x="1118" y="432.8" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="32" font-weight="700" fill="#172B46">-SdpHostConfig</text>
+<text x="1118" y="482.8" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="32" font-weight="700" fill="#172B46">넣었나?</text>
+<polyline points="980,445 1090,445" fill="none" stroke="#2764D5" stroke-width="4" stroke-linejoin="round"/>
+<polygon points="1090,445 1074.683529245659,452.3760235649985 1074.683529245659,437.6239764350015" fill="#2764D5"/>
+<rect x="1680" y="190" width="650" height="165" rx="22" fill="#FFF6DE" stroke="#E9CC87" stroke-width="2"/>
+<text x="1708" y="260.1" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="34" font-weight="400" fill="#172B46">기본 실행의 정상 상태</text>
+<text x="1708" y="312.1" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="34" font-weight="400" fill="#172B46">(성공 아님)</text>
+<polyline points="1300,370 1300,272 1680,272" fill="none" stroke="#2764D5" stroke-width="4" stroke-linejoin="round"/>
+<polygon points="1680,272 1664.683529245659,279.3760235649985 1664.683529245659,264.6239764350015" fill="#2764D5"/>
+<text x="1420" y="246.1" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="29" font-weight="700" fill="#2764D5">아니오</text>
+<rect x="1680" y="370" width="530" height="150" rx="22" fill="#FFFFFF" stroke="#CBD8EB" stroke-width="2"/>
+<text x="1708" y="432.8" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="32" font-weight="400" fill="#172B46">「다시 불러오기」</text>
+<text x="1708" y="482.8" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="32" font-weight="400" fill="#172B46">한 번</text>
+<polyline points="1510,445 1680,445" fill="none" stroke="#2764D5" stroke-width="4" stroke-linejoin="round"/>
+<polygon points="1680,445 1664.683529245659,452.3760235649985 1664.683529245659,437.6239764350015" fill="#2764D5"/>
+<text x="1560" y="420.1" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="29" font-weight="700" fill="#2764D5">예</text>
+<rect x="2370" y="370" width="750" height="150" rx="22" fill="#FFFFFF" stroke="#CBD8EB" stroke-width="2"/>
+<text x="2398" y="458.6" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="34" font-weight="400" fill="#172B46">도움정보를 담당자에게</text>
+<polyline points="2210,445 2370,445" fill="none" stroke="#2764D5" stroke-width="4" stroke-linejoin="round"/>
+<polygon points="2370,445 2354.683529245659,452.3760235649985 2354.683529245659,437.6239764350015" fill="#2764D5"/>
+<text x="2220" y="405.5" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="25" font-weight="700" fill="#2764D5">계속되면</text>
+<rect x="580" y="700" width="400" height="150" rx="22" fill="#F3F5F8" stroke="#D2DAE5" stroke-width="2"/>
+<text x="608" y="762.9" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="31" font-weight="700" fill="#172B46">「권한 준비 중·</text>
+<text x="608" y="811.9" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="31" font-weight="700" fill="#172B46">확인 불가」</text>
+<rect x="1090" y="700" width="420" height="150" rx="22" fill="#EDF4FF" stroke="#BBD0EF" stroke-width="2"/>
+<text x="1118" y="762.8" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="32" font-weight="700" fill="#172B46">계정 연결</text>
+<text x="1118" y="812.8" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="32" font-weight="700" fill="#172B46">마쳤나?</text>
+<rect x="1680" y="700" width="530" height="150" rx="22" fill="#EDF4FF" stroke="#BBD0EF" stroke-width="2"/>
+<text x="1708" y="762.8" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="32" font-weight="700" fill="#172B46">AI 앱 승인</text>
+<text x="1708" y="812.8" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="32" font-weight="700" fill="#172B46">마쳤나?</text>
+<rect x="2370" y="700" width="750" height="150" rx="22" fill="#FFFFFF" stroke="#CBD8EB" stroke-width="2"/>
+<text x="2398" y="762.6" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="34" font-weight="400" fill="#172B46">담당자에게 앱 권한</text>
+<text x="2398" y="814.6" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="34" font-weight="400" fill="#172B46">확인 요청</text>
+<polyline points="980,775 1090,775" fill="none" stroke="#2764D5" stroke-width="4" stroke-linejoin="round"/>
+<polygon points="1090,775 1074.683529245659,782.3760235649985 1074.683529245659,767.6239764350015" fill="#2764D5"/>
+<polyline points="1510,775 1680,775" fill="none" stroke="#2764D5" stroke-width="4" stroke-linejoin="round"/>
+<polygon points="1680,775 1664.683529245659,782.3760235649985 1664.683529245659,767.6239764350015" fill="#2764D5"/>
+<polyline points="2210,775 2370,775" fill="none" stroke="#2764D5" stroke-width="4" stroke-linejoin="round"/>
+<polygon points="2370,775 2354.683529245659,782.3760235649985 2354.683529245659,767.6239764350015" fill="#2764D5"/>
+<rect x="580" y="1030" width="400" height="150" rx="22" fill="#F3F5F8" stroke="#D2DAE5" stroke-width="2"/>
+<text x="608" y="1093.2" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="28" font-weight="700" fill="#172B46">「조회 준비 미완료</text>
+<text x="608" y="1139.2" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="28" font-weight="700" fill="#172B46">(not_configured)」</text>
+<rect x="1090" y="1030" width="1120" height="150" rx="22" fill="#FFF6DE" stroke="#E9CC87" stroke-width="2"/>
+<text x="1118" y="1117.8" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="32" font-weight="400" fill="#172B46">담당자 준비 항목, .env 바꾸지 않음</text>
+<polyline points="980,1105 1090,1105" fill="none" stroke="#2764D5" stroke-width="4" stroke-linejoin="round"/>
+<polygon points="1090,1105 1074.683529245659,1112.3760235649984 1074.683529245659,1097.6239764350016" fill="#2764D5"/>
+<rect x="580" y="1360" width="400" height="150" rx="22" fill="#F3F5F8" stroke="#D2DAE5" stroke-width="2"/>
+<text x="608" y="1447.0" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="30" font-weight="700" fill="#172B46">「학생 구현 대기」</text>
+<rect x="1090" y="1360" width="420" height="150" rx="22" fill="#FFFFFF" stroke="#CBD8EB" stroke-width="2"/>
+<text x="1118" y="1447.8" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="32" font-weight="400" fill="#172B46">npm run check</text>
+<rect x="1680" y="1360" width="530" height="150" rx="22" fill="#FFFFFF" stroke="#CBD8EB" stroke-width="2"/>
+<text x="1708" y="1448.6" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="34" font-weight="400" fill="#172B46">오류 줄 수정</text>
+<rect x="2370" y="1360" width="750" height="150" rx="22" fill="#FFFFFF" stroke="#CBD8EB" stroke-width="2"/>
+<text x="2398" y="1448.6" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="34" font-weight="400" fill="#172B46">새로 고침</text>
+<polyline points="980,1435 1090,1435" fill="none" stroke="#2764D5" stroke-width="4" stroke-linejoin="round"/>
+<polygon points="1090,1435 1074.683529245659,1442.3760235649984 1074.683529245659,1427.6239764350016" fill="#2764D5"/>
+<polyline points="1510,1435 1680,1435" fill="none" stroke="#2764D5" stroke-width="4" stroke-linejoin="round"/>
+<polygon points="1680,1435 1664.683529245659,1442.3760235649984 1664.683529245659,1427.6239764350016" fill="#2764D5"/>
+<polyline points="2210,1435 2370,1435" fill="none" stroke="#2764D5" stroke-width="4" stroke-linejoin="round"/>
+<polygon points="2370,1435 2354.683529245659,1442.3760235649984 2354.683529245659,1427.6239764350016" fill="#2764D5"/>
+<rect x="580" y="1690" width="400" height="150" rx="22" fill="#F3F5F8" stroke="#D2DAE5" stroke-width="2"/>
+<text x="608" y="1753.2" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="28" font-weight="700" fill="#172B46">「확인 불가」</text>
+<text x="608" y="1799.2" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="28" font-weight="700" fill="#172B46">CONTRACT_MISMATCH</text>
+<rect x="1090" y="1690" width="420" height="150" rx="22" fill="#FFFFFF" stroke="#CBD8EB" stroke-width="2"/>
+<text x="1118" y="1753.0" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="30" font-weight="400" fill="#172B46">「다시 불러오기」</text>
+<text x="1118" y="1801.0" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="30" font-weight="400" fill="#172B46">한 번</text>
+<rect x="1680" y="1690" width="530" height="150" rx="22" fill="#FFFFFF" stroke="#CBD8EB" stroke-width="2"/>
+<text x="1708" y="1777.8" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="32" font-weight="400" fill="#172B46">도움정보 불러오기</text>
+<rect x="2370" y="1690" width="750" height="150" rx="22" fill="#FFFFFF" stroke="#CBD8EB" stroke-width="2"/>
+<text x="2398" y="1778.6" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="34" font-weight="400" fill="#172B46">담당자에게</text>
+<polyline points="980,1765 1090,1765" fill="none" stroke="#2764D5" stroke-width="4" stroke-linejoin="round"/>
+<polygon points="1090,1765 1074.683529245659,1772.3760235649984 1074.683529245659,1757.6239764350016" fill="#2764D5"/>
+<polyline points="1510,1765 1680,1765" fill="none" stroke="#2764D5" stroke-width="4" stroke-linejoin="round"/>
+<polygon points="1680,1765 1664.683529245659,1772.3760235649984 1664.683529245659,1757.6239764350016" fill="#2764D5"/>
+<polyline points="2210,1765 2370,1765" fill="none" stroke="#2764D5" stroke-width="4" stroke-linejoin="round"/>
+<polygon points="2370,1765 2354.683529245659,1772.3760235649984 2354.683529245659,1757.6239764350016" fill="#2764D5"/>
+<text x="70" y="1993.3" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="37" font-weight="700" fill="#172B46">자동 재시도 없음. 확인 불가는 성공이 아님</text>
+</svg>

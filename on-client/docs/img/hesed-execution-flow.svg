@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2400" height="2090" viewBox="0 0 2400 2090">
+<title>그림 A · 실행 절차 흐름</title>
+<rect width="2400" height="2090" fill="white"/>
+<text x="70" y="110.2" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="58" font-weight="700" fill="#172B46">그림 A · 실행 절차 흐름</text>
+<text x="74" y="174.0" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="30" font-weight="400" fill="#52657D">설명서 4장 · 폴더 열기부터 종료와 재실행까지 순서대로 진행합니다.</text>
+<rect x="70" y="210" width="399.9895833333333" height="44" rx="12" fill="#EAF1FF" stroke="#EAF1FF" stroke-width="2"/>
+<text x="86" y="238.7" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="23" font-weight="700" fill="#2764D5">기본 실행 · PowerShell · 포트 5189</text>
+<rect x="90" y="300" width="1240" height="165" rx="23" fill="#F6F9FF" stroke="#CFDDF3" stroke-width="2"/>
+<rect x="120" y="327" width="60" height="56" rx="13" fill="#2764D5" stroke="#2764D5" stroke-width="2"/>
+<text x="137" y="364.8" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="32" font-weight="700" fill="#FFFFFF">1</text>
+<text x="210" y="367.5" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="35" font-weight="700" fill="#172B46">폴더 열기</text>
+<text x="210" y="420.2" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="28" font-weight="400" fill="#52657D">파일 탐색기 D:<tspan font-family="Consolas,monospace">\</tspan>Chesed<tspan font-family="Consolas,monospace">\</tspan>on-client → 주소 표시줄에 powershell</text>
+<rect x="90" y="515" width="1240" height="165" rx="23" fill="#F6F9FF" stroke="#CFDDF3" stroke-width="2"/>
+<rect x="120" y="542" width="60" height="56" rx="13" fill="#2764D5" stroke="#2764D5" stroke-width="2"/>
+<text x="137" y="579.8" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="32" font-weight="700" fill="#FFFFFF">2</text>
+<text x="210" y="582.5" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="35" font-weight="700" fill="#172B46">버전 확인</text>
+<text x="210" y="636.1" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="29" font-weight="400" fill="#52657D">node --version / git --version  (node v22~v24)</text>
+<rect x="90" y="730" width="1240" height="190" rx="23" fill="#F6F9FF" stroke="#CFDDF3" stroke-width="2"/>
+<rect x="120" y="757" width="60" height="56" rx="13" fill="#2764D5" stroke="#2764D5" stroke-width="2"/>
+<text x="137" y="794.8" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="32" font-weight="700" fill="#FFFFFF">3</text>
+<text x="210" y="797.5" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="35" font-weight="700" fill="#172B46">실행</text>
+<text x="120" y="856.4" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="26" font-weight="400" fill="#172B46">powershell -NoProfile -ExecutionPolicy Bypass -File .<tspan font-family="Consolas,monospace">\</tspan>tools<tspan font-family="Consolas,monospace">\</tspan>start-alekov.ps1</text>
+<polyline points="710,920 710,1030" fill="none" stroke="#2764D5" stroke-width="4" stroke-linejoin="round"/>
+<polygon points="710,1030 702.6239764350015,1014.6835292456589 717.3760235649985,1014.6835292456589" fill="#2764D5"/>
+<text x="760" y="945.9" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="21" font-weight="400" fill="#52657D">도구 내부</text>
+<text x="760" y="970.9" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="21" font-weight="400" fill="#52657D">폴더 확인 → Node 버전 확인</text>
+<text x="760" y="995.9" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="21" font-weight="400" fill="#52657D">→ 포트 5189 확인 → 서버 실행</text>
+<text x="760" y="1020.9" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="21" font-weight="400" fill="#52657D">→ 최대 20초 응답 확인</text>
+<rect x="90" y="1030" width="1240" height="205" rx="23" fill="#F6F9FF" stroke="#CFDDF3" stroke-width="2"/>
+<rect x="120" y="1057" width="60" height="56" rx="13" fill="#2764D5" stroke="#2764D5" stroke-width="2"/>
+<text x="137" y="1094.8" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="32" font-weight="700" fill="#FFFFFF">4</text>
+<text x="210" y="1097.5" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="35" font-weight="700" fill="#172B46">시작 신호</text>
+<text x="210" y="1138.2" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="28" font-weight="400" fill="#52657D">“케셰브가 켜졌습니다. 브라우저에서</text>
+<text x="210" y="1186.2" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="28" font-weight="400" fill="#52657D">http://127.0.0.1:5189/ 을 여세요.”</text>
+<rect x="90" y="1285" width="1240" height="210" rx="23" fill="#F6F9FF" stroke="#CFDDF3" stroke-width="2"/>
+<rect x="120" y="1312" width="60" height="56" rx="13" fill="#2764D5" stroke="#2764D5" stroke-width="2"/>
+<text x="137" y="1349.8" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="32" font-weight="700" fill="#FFFFFF">5</text>
+<text x="210" y="1352.5" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="35" font-weight="700" fill="#172B46">브라우저</text>
+<text x="210" y="1394.0" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="30" font-weight="700" fill="#172B46">http://127.0.0.1:5189/</text>
+<text x="210" y="1444.3" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="27" font-weight="400" fill="#52657D">메뉴: 보호 현황 · 업무 앱 · 보안 기록  (기본 실행은 「연결 없음」)</text>
+<rect x="90" y="1545" width="1240" height="155" rx="23" fill="#F6F9FF" stroke="#CFDDF3" stroke-width="2"/>
+<rect x="120" y="1572" width="60" height="56" rx="13" fill="#2764D5" stroke="#2764D5" stroke-width="2"/>
+<text x="137" y="1609.8" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="32" font-weight="700" fill="#FFFFFF">6</text>
+<text x="210" y="1612.5" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="35" font-weight="700" fill="#172B46">종료</text>
+<text x="210" y="1657.0" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="30" font-weight="400" fill="#52657D">실행 창에서 Ctrl+C</text>
+<rect x="90" y="1750" width="1240" height="155" rx="23" fill="#F6F9FF" stroke="#CFDDF3" stroke-width="2"/>
+<rect x="120" y="1777" width="60" height="56" rx="13" fill="#2764D5" stroke="#2764D5" stroke-width="2"/>
+<text x="137" y="1814.8" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="32" font-weight="700" fill="#FFFFFF">7</text>
+<text x="210" y="1817.5" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="35" font-weight="700" fill="#172B46">재실행</text>
+<text x="210" y="1862.0" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="30" font-weight="400" fill="#52657D">[3] 실행부터 다시</text>
+<polyline points="710,465 710,515" fill="none" stroke="#2764D5" stroke-width="4" stroke-linejoin="round"/>
+<polygon points="710,515 702.6239764350015,499.68352924565886 717.3760235649985,499.68352924565886" fill="#2764D5"/>
+<polyline points="710,680 710,730" fill="none" stroke="#2764D5" stroke-width="4" stroke-linejoin="round"/>
+<polygon points="710,730 702.6239764350015,714.6835292456589 717.3760235649985,714.6835292456589" fill="#2764D5"/>
+<polyline points="710,1235 710,1285" fill="none" stroke="#2764D5" stroke-width="4" stroke-linejoin="round"/>
+<polygon points="710,1285 702.6239764350015,1269.683529245659 717.3760235649985,1269.683529245659" fill="#2764D5"/>
+<polyline points="710,1495 710,1545" fill="none" stroke="#2764D5" stroke-width="4" stroke-linejoin="round"/>
+<polygon points="710,1545 702.6239764350015,1529.683529245659 717.3760235649985,1529.683529245659" fill="#2764D5"/>
+<polyline points="710,1700 710,1750" fill="none" stroke="#2764D5" stroke-width="4" stroke-linejoin="round"/>
+<polygon points="710,1750 702.6239764350015,1734.683529245659 717.3760235649985,1734.683529245659" fill="#2764D5"/>
+<rect x="1525" y="630" width="214.66666666666666" height="44" rx="12" fill="#FFF0CD" stroke="#FFF0CD" stroke-width="2"/>
+<text x="1541" y="658.7" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="23" font-weight="700" fill="#916016">실행 실패 시 멈춤</text>
+<polyline points="1330,825 1435,825" fill="none" stroke="#916016" stroke-width="3" stroke-linejoin="round" stroke-dasharray="11 9"/>
+<polyline points="1435,815 1435,1702" fill="none" stroke="#916016" stroke-width="3" stroke-linejoin="round" stroke-dasharray="11 9"/>
+<rect x="1525" y="715" width="810" height="222" rx="20" fill="#FFF5D9" stroke="#E7C56E" stroke-width="2"/>
+<text x="1557" y="766.1" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="29" font-weight="700" fill="#916016">Node.js 가 없습니다.</text>
+<text x="1557" y="834.3" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="27" font-weight="400" fill="#52657D">Node.js 22~24를 설치하고</text>
+<text x="1557" y="874.3" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="27" font-weight="400" fill="#52657D">PowerShell 창을 새로 엽니다.</text>
+<polyline points="1435,826 1525,826" fill="none" stroke="#916016" stroke-width="3" stroke-linejoin="round" stroke-dasharray="11 9"/>
+<polygon points="1525,826 1509.683529245659,833.3760235649985 1509.683529245659,818.6239764350015" fill="#916016"/>
+<rect x="1525" y="970" width="810" height="222" rx="20" fill="#FFF5D9" stroke="#E7C56E" stroke-width="2"/>
+<text x="1557" y="1021.1" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="29" font-weight="700" fill="#916016">포트 5189 를 다른 프로그램이</text>
+<text x="1557" y="1062.1" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="29" font-weight="700" fill="#916016">쓰고 있습니다.</text>
+<text x="1557" y="1112.3" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="27" font-weight="400" fill="#52657D">그 프로그램은 그대로 두고</text>
+<text x="1557" y="1152.3" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="27" font-weight="400" fill="#52657D">-Port 5190을 붙여 실행합니다.</text>
+<polyline points="1435,1081 1525,1081" fill="none" stroke="#916016" stroke-width="3" stroke-linejoin="round" stroke-dasharray="11 9"/>
+<polygon points="1525,1081 1509.683529245659,1088.3760235649984 1509.683529245659,1073.6239764350016" fill="#916016"/>
+<rect x="1525" y="1225" width="810" height="222" rx="20" fill="#FFF5D9" stroke="#E7C56E" stroke-width="2"/>
+<text x="1557" y="1276.1" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="29" font-weight="700" fill="#916016">앱 폴더가 아닙니다.</text>
+<text x="1557" y="1344.3" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="27" font-weight="400" fill="#52657D">D:<tspan font-family="Consolas,monospace">\</tspan>Chesed<tspan font-family="Consolas,monospace">\</tspan>on-client</text>
+<text x="1557" y="1384.3" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="27" font-weight="400" fill="#52657D">폴더에서 실행합니다.</text>
+<polyline points="1435,1336 1525,1336" fill="none" stroke="#916016" stroke-width="3" stroke-linejoin="round" stroke-dasharray="11 9"/>
+<polygon points="1525,1336 1509.683529245659,1343.3760235649984 1509.683529245659,1328.6239764350016" fill="#916016"/>
+<rect x="1525" y="1480" width="810" height="222" rx="20" fill="#FFF5D9" stroke="#E7C56E" stroke-width="2"/>
+<text x="1557" y="1531.1" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="29" font-weight="700" fill="#916016">앱 서버가 20 초 안에</text>
+<text x="1557" y="1572.1" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="29" font-weight="700" fill="#916016">뜨지 않았습니다.</text>
+<text x="1557" y="1622.3" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="27" font-weight="400" fill="#52657D">창의 메시지 전체를</text>
+<text x="1557" y="1662.3" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="27" font-weight="400" fill="#52657D">강사에게 보여 줍니다.</text>
+<polyline points="1435,1591 1525,1591" fill="none" stroke="#916016" stroke-width="3" stroke-linejoin="round" stroke-dasharray="11 9"/>
+<polygon points="1525,1591 1509.683529245659,1598.3760235649984 1509.683529245659,1583.6239764350016" fill="#916016"/>
+<rect x="60" y="1980" width="2280" height="75" rx="16" fill="#EDF3FC" stroke="#D6E2F5" stroke-width="2"/>
+<text x="90" y="2029.0" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="30" font-weight="700" fill="#172B46">시작 신호는 앱 서버가 응답했다는 뜻이며 SDP·AI 연결 성공이 아님</text>
+</svg>

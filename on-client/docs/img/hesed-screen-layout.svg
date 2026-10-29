@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2400" height="1810" viewBox="0 0 2400 1810">
+<title>헤세드 화면 구성</title>
+<rect width="2400" height="1810" fill="white"/>
+<text x="70" y="113.80000000000001" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="62" font-weight="700" fill="#172B46">헤세드 화면 구성</text>
+<rect x="70" y="200" width="2260" height="112" rx="20" fill="#F4F7FC" stroke="#D3DEEF" stroke-width="2"/>
+<text x="110" y="269.1" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="39" font-weight="700" fill="#172B46">케셰브</text>
+<text x="1500" y="268.1" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="29" font-weight="400" fill="#52657D">연결 상태 표시</text>
+<rect x="2000" y="222" width="285" height="68" rx="14" fill="#FFFFFF" stroke="#BBD0F1" stroke-width="2"/>
+<text x="2050" y="265.1" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="29" font-weight="700" fill="#2764D5">다시 불러오기</text>
+<rect x="90" y="553" width="370" height="126" rx="20" fill="#EAF1FF" stroke="#BCD1F4" stroke-width="2"/>
+<text x="130" y="627.4" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="36" font-weight="700" fill="#2764D5">보호 현황</text>
+<rect x="750" y="370" width="1580" height="108" rx="18" fill="#FFFFFF" stroke="#CAD7EB" stroke-width="2"/>
+<text x="790" y="437.5" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="35" font-weight="700" fill="#172B46">renderIdentity</text>
+<text x="1455" y="435.2" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="28" font-weight="400" fill="#52657D">로그인 사용자·기기·세션</text>
+<rect x="750" y="505" width="1580" height="108" rx="18" fill="#FFFFFF" stroke="#CAD7EB" stroke-width="2"/>
+<text x="790" y="572.5" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="35" font-weight="700" fill="#172B46">renderStatus</text>
+<text x="1455" y="570.2" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="28" font-weight="400" fill="#52657D">기기·세션·알림·도움정보</text>
+<rect x="750" y="640" width="1580" height="108" rx="18" fill="#FFFFFF" stroke="#CAD7EB" stroke-width="2"/>
+<text x="790" y="707.5" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="35" font-weight="700" fill="#172B46">renderAiConnection</text>
+<text x="1455" y="705.2" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="28" font-weight="400" fill="#52657D">AI 연결 점검</text>
+<rect x="750" y="775" width="1580" height="108" rx="18" fill="#FFFFFF" stroke="#CAD7EB" stroke-width="2"/>
+<text x="790" y="842.5" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="35" font-weight="700" fill="#172B46">renderVulnerabilities</text>
+<text x="1455" y="840.2" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="28" font-weight="400" fill="#52657D">설치 패키지 취약점</text>
+<polyline points="460,616 610,616" fill="none" stroke="#2764D5" stroke-width="4" stroke-linejoin="round"/>
+<polyline points="610,424 610,829" fill="none" stroke="#2764D5" stroke-width="4" stroke-linejoin="round"/>
+<polyline points="610,424 750,424" fill="none" stroke="#2764D5" stroke-width="4" stroke-linejoin="round"/>
+<polygon points="750,424 734.6835292456589,431.3760235649985 734.6835292456589,416.6239764350015" fill="#2764D5"/>
+<polyline points="610,559 750,559" fill="none" stroke="#2764D5" stroke-width="4" stroke-linejoin="round"/>
+<polygon points="750,559 734.6835292456589,566.3760235649985 734.6835292456589,551.6239764350015" fill="#2764D5"/>
+<polyline points="610,694 750,694" fill="none" stroke="#2764D5" stroke-width="4" stroke-linejoin="round"/>
+<polygon points="750,694 734.6835292456589,701.3760235649985 734.6835292456589,686.6239764350015" fill="#2764D5"/>
+<polyline points="610,829 750,829" fill="none" stroke="#2764D5" stroke-width="4" stroke-linejoin="round"/>
+<polygon points="750,829 734.6835292456589,836.3760235649985 734.6835292456589,821.6239764350015" fill="#2764D5"/>
+<rect x="90" y="990" width="370" height="126" rx="20" fill="#EAF1FF" stroke="#BCD1F4" stroke-width="2"/>
+<text x="130" y="1064.4" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="36" font-weight="700" fill="#2764D5">업무 앱</text>
+<rect x="750" y="990" width="1580" height="126" rx="18" fill="#FFFFFF" stroke="#CAD7EB" stroke-width="2"/>
+<text x="790" y="1057.5" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="35" font-weight="700" fill="#172B46">renderDecision</text>
+<text x="1455" y="1055.2" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="28" font-weight="400" fill="#52657D">접근 허용·거부·추가 확인·판정 확인 불가</text>
+<polyline points="460,1053 750,1053" fill="none" stroke="#2764D5" stroke-width="4" stroke-linejoin="round"/>
+<polygon points="750,1053 734.6835292456589,1060.3760235649984 734.6835292456589,1045.6239764350016" fill="#2764D5"/>
+<rect x="90" y="1348" width="370" height="126" rx="20" fill="#EAF1FF" stroke="#BCD1F4" stroke-width="2"/>
+<text x="130" y="1422.4" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="36" font-weight="700" fill="#2764D5">보안 기록</text>
+<rect x="750" y="1210" width="1580" height="108" rx="18" fill="#FFFFFF" stroke="#CAD7EB" stroke-width="2"/>
+<text x="790" y="1277.5" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="35" font-weight="700" fill="#172B46">renderEvents</text>
+<text x="1455" y="1275.2" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="28" font-weight="400" fill="#52657D">접속 기록·XDR 경보</text>
+<rect x="750" y="1345" width="1580" height="108" rx="18" fill="#FFFFFF" stroke="#CAD7EB" stroke-width="2"/>
+<text x="790" y="1412.5" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="35" font-weight="700" fill="#172B46">renderExplanation</text>
+<text x="1455" y="1410.2" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="28" font-weight="400" fill="#52657D">AI 사건 설명</text>
+<rect x="750" y="1480" width="1580" height="108" rx="18" fill="#FFFFFF" stroke="#CAD7EB" stroke-width="2"/>
+<text x="790" y="1547.5" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="35" font-weight="700" fill="#172B46">renderAction</text>
+<text x="1455" y="1545.2" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="28" font-weight="400" fill="#52657D">조치 요청 상태</text>
+<polyline points="460,1411 610,1411" fill="none" stroke="#2764D5" stroke-width="4" stroke-linejoin="round"/>
+<polyline points="610,1264 610,1534" fill="none" stroke="#2764D5" stroke-width="4" stroke-linejoin="round"/>
+<polyline points="610,1264 750,1264" fill="none" stroke="#2764D5" stroke-width="4" stroke-linejoin="round"/>
+<polygon points="750,1264 734.6835292456589,1271.3760235649984 734.6835292456589,1256.6239764350016" fill="#2764D5"/>
+<polyline points="610,1399 750,1399" fill="none" stroke="#2764D5" stroke-width="4" stroke-linejoin="round"/>
+<polygon points="750,1399 734.6835292456589,1406.3760235649984 734.6835292456589,1391.6239764350016" fill="#2764D5"/>
+<polyline points="610,1534 750,1534" fill="none" stroke="#2764D5" stroke-width="4" stroke-linejoin="round"/>
+<polygon points="750,1534 734.6835292456589,1541.3760235649984 734.6835292456589,1526.6239764350016" fill="#2764D5"/>
+<text x="75" y="1730.9" font-family="Malgun Gothic,맑은 고딕,sans-serif" font-size="31" font-weight="700" fill="#172B46">각 칸은 student/extension.mjs 함수가 그림. 판정·탐지·집행은 기존 엔진 담당</text>
+</svg>
